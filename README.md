@@ -8,6 +8,7 @@ If you, like me, need a simple tool for create a rotated map with routes, it can
 ## How to run
 
 1. Just clone/download and launch under any web-server. Not sure it will work from local file, never tested.
+   OR just open https://openlayers-route-editor.netlify.com
 2. Click at map, create / edit route. Route points will be shown in textarea below map.
 3. Commands: 
   - Save - save current route to local storage
