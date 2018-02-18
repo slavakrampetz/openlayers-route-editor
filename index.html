@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>OpenLayers, route simple editor</title>
+  <meta name="keywords" content="OpenLayer, routes, tracks"/>
+  <meta name="description" content="OpenLayer engine, traces editor"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+	<link rel="stylesheet" href="bulma.0.6.2.min.css">
+	<link rel="stylesheet" href="styles.css">
+
+	<!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+	<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+	<script src="https://openlayers.org/en/v4.6.4/build/ol.js"></script>
+	<script src="openlayers-draw.js"></script>
+</head>
+
+<body>
+  <div id="map" class="map"></div>
+  <div class="section">
+  <div id="controls" class="columns">
+	  <div class="column is-narrow">
+		  <h5><label for="lookup">Map:</label> <a id="find">find address</a></h5>
+		  <div>
+			  <textarea id="lookup" rows="3" cols="50"></textarea>
+		  </div>
+	  </div>
+
+	  <div class="column is-narrow">
+		  <h5>Route: <a id="save">Save</a> | <a id="load">Load</a> | <a id="copy">Copy</a></h5>
+		  <div><textarea id="coordinates" rows="10" cols="60" title="Route"></textarea></div>
+		  <div><a id="apply">Update route at Map</a></div>
+	  </div>
+
+  </div>
+  </div>
+
+</body>
+</html>
