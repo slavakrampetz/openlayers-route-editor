@@ -35,6 +35,13 @@ var lon = coord[0];
 var lat = coord[1];
 ``
 
+## Links
+
+1. OpenLayers API
+  http://openlayers.org/en/latest/apidoc/index.html
+2. OpenLayers examples
+  https://openlayers.org/en/latest/examples/index.html
+
 ## Useful examples of OpenLayers
 
 OpenLayers examples page is quite large. There is more useful ones.
